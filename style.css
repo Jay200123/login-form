@@ -1,0 +1,238 @@
+	
+body, html{
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-image: url('images/background.jpeg');
+	background-color:aqua;
+	height: 100%;
+}
+
+h3{
+	font-family: sans-serif;
+}
+
+p{
+	font-family: sans-serif;
+}
+
+/*image design*/
+img{
+	border-radius: 50%;
+	/*border-style: solid;
+	color: black;*/
+}
+
+
+/*header css*/
+.header{
+	overflow: hidden;
+	padding: 15px 10px;
+	background-color:none;
+	box-sizing: border-box;
+	background-color: none;
+	/* border: solid black;
+	box-shadow: 15px 10px; */
+}
+
+.header p{
+	float: left;
+	color: white;
+	font-family: sans-serif;
+}
+
+.header li{
+	float: right;
+	display: inline-block;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: white;
+}
+
+.header a.active{
+	background-color: grey;
+	padding: 5px 10px;
+	color: white;
+}
+
+/*web content*/
+.left-container{
+ text-align: left;
+}
+
+/*header*/
+.left-container h1{
+	font-family: sans-serif;
+	color: black;
+}
+
+.left-container h3{
+	font-family: sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+.left-container li{
+display: inline-block;
+padding: 10px;
+}
+
+/*container center*/
+.container{
+	text-align: center;
+}
+
+.container h1{
+	font-family: sans-serif;
+	color: white;
+	font-weight: bold;
+}
+
+/*box*/
+.box{
+	display: inline-block;
+	text-align: left;
+	width: 400px;
+	padding: 20px;
+	border: 5px solid black;
+}
+
+/* css for footers */
+
+/*footer*/
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 5px;
+	background-color: none;
+	box-sizing: border-box;
+}
+
+.footer h5{
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.footer-icon{
+	text-align: center;
+}
+
+.footer-icon h2{
+	text-align: left;
+	color: white;
+}
+
+.footer p{
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.footer li{
+	color: white;
+	display: inline-block;
+	
+}
+
+.footer a{
+	font-size: 20px;
+	padding: 15px;
+}
+
+/* Login Form Css */
+
+.login-form{
+
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius:5px;
+	background-color: white;
+	border: solid black;
+	box-shadow: 15px 10px black;
+
+}
+
+/* text forms */
+input[type=text], select{
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=password], select{
+	width: 80%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+/* buttons */
+input[type=submit] {
+	width: 80%;
+	background: linear-gradient(to bottom, white 0%,  #000099 100%);
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: 5px solid;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+
+
+.login-form h3, label{
+	color: black;
+}
+
+.login-form p{
+	color: black;
+}
+
+.login-header{
+	color: white;
+	/* border: solid black; */
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+marquee{
+	border-radius:5px;
+	border: solid black;
+	box-shadow:10px 10px black;
+	justify-content: center;
+	direction: right;
+	behavior: "alternate";
+	background-color: white;
+	padding: 10px 5px;
+	width: 28%;
+	/* font-style: "border:black 2px solid"; */
+}
+
+
+
+
+
+
+
